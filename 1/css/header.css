@@ -1,0 +1,80 @@
+header {
+    color: white;
+    background-image: url(../images/background.svg);
+    background-size: cover;
+    height: 140vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__logo{
+    margin-left: 140px;
+    margin-top: 18px;
+}
+
+.header__nav-item {
+    margin-top: 35px;
+}
+
+.button__header__contact-us {
+    position: relative;
+    background-color: #EE4D47;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-right: 97px;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar nav ul li {
+    margin-left: 97px;
+}
+
+.navbar nav ul li a {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.96px;
+    letter-spacing: 0.05em;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+    color: #8ae992;
+    transition: color 0.3s ease;
+}
+
+
+.intro{
+    text-align: left;
+    align-items: flex-end;
+    margin-left: 7%;
+}
+
+.intro h1 {
+    font-family: DM Serif Display;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 100px;
+}
+
+.hero__button {   
+    position: relative;
+    color:white;
+    background-color: #FF6A5D;
+    padding: 20px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}

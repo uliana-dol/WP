@@ -1,0 +1,38 @@
+footer {
+    height: 205px;
+    background: #F16353;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_container {
+    width: 100%;
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    width: 165px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #F8F9FA;
+    margin: 0;
+}
+
+.footer__logo {
+    width: 212px;
+    height: 50px;
+}
+
+.socials {
+    width: 170px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    gap: 31px; 
+}
