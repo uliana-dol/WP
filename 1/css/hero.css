@@ -1,0 +1,48 @@
+.hero__title {
+    font-family: DM Serif Display;
+    line-height: 100%;
+    font-size: 100px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #fff;
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+.hero__button {
+    background: #EE4D47;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 5%;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    cursor: pointer;
+    margin-top: 60px;
+    margin-left: 40px;
+    transition: all 0.3s ease;
+}
+
+.hero__image {
+    margin-right: 8px;
+}
+
+.hero__button:hover {
+    transform: scale(1.05);
+}
+
+.container__hero {
+    text-align: left;
+    align-items: flex-end;
+    margin-left: 7%;
+}
+
+.intro h1 {
+    font-family: DM Serif Display;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 100px;
+}
